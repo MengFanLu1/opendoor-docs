@@ -3,7 +3,7 @@ layout: home
 hero:
   name: 推开世界的门
   text: AI 中转站使用指南
-  tagline: 配置教程 · 使用心得 · 快速上手
+  tagline: 配置教程 · 使用心得 · 快速上手 🚀
   actions:
     - theme: brand
       text: 开始使用
