@@ -5,7 +5,7 @@
 1. 打开设置 → 模型服务
 2. 选择「OpenAI 兼容」
 3. 填写：
-   - API 地址：`https://你的域名/v1`
+   - API 地址：`https://api.code-opendoor.com/v1`
    - API Key：你的 Key
 
 ## Cursor

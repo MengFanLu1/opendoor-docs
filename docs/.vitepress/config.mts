@@ -1,13 +1,15 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: '推开世界的门',
+  title: 'Opendoor-DOCS',
   description: 'AI 使用教程与心得',
   lang: 'zh-CN',
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
       { text: '配置教程', link: '/guide/setup' },
+      { text: '生图使用教程', link: '/image/intro' },
       { text: '使用心得', link: '/tips/intro' },
     ],
     sidebar: {
@@ -21,6 +23,25 @@ export default defineConfig({
           ],
         },
       ],
+      '/image/': [
+        {
+          text: '生图使用教程',
+          items: [
+            { text: '概览', link: '/image/intro' },
+            { text: 'Nanobanana', link: '/image/gemini' },
+            { text: 'GPT-Image2', link: '/image/openai' },
+            { text: 'OpenDoor-Image-Skills', link: '/image/skills' },
+          ],
+        },
+      ],
+      '/skills/': [
+        {
+          text: 'Skills',
+          items: [
+            { text: 'opendoor-image-skills', link: '/skills/image' },
+          ],
+        },
+      ],
       '/tips/': [
         {
           text: '使用心得',
@@ -31,7 +52,8 @@ export default defineConfig({
       ],
     },
     socialLinks: [],
-    footer: { message: '推开世界的门' },
+    logo: '/logo.png',
+    footer: { message: 'opendoor' },
     search: { provider: 'local' },
   },
 })

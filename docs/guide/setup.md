@@ -1,10 +1,10 @@
 # 快速开始
 
-欢迎使用推开世界的门 AI 中转服务。
+欢迎使用opendoor AI 中转服务。
 
 ## 第一步：注册账号
 
-访问平台官网，使用邮箱注册账号。
+访问 [code-opendoor.com](https://code-opendoor.com)，使用邮箱注册账号。
 
 ## 第二步：充值
 
