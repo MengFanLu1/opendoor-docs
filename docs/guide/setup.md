@@ -54,6 +54,8 @@
 - [OpenClaw 配置](./openclaw)
 - [Hermes 配置](./hermes)
 - [Cline 配置](./cline)
+- [Cherry Studio 配置](./cherry-studio)
+- [Cursor 配置](./cursor)
 
 如果遇到异常，可以查看常见问题：
 

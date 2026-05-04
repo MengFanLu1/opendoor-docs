@@ -39,6 +39,17 @@ export default defineConfig({
           ],
         },
         {
+          text: '第三方客户端接入',
+          items: [
+            { text: 'OpenCode 配置', link: '/guide/opencode' },
+            { text: 'OpenClaw 配置', link: '/guide/openclaw' },
+            { text: 'Hermes 配置', link: '/guide/hermes' },
+            { text: 'Cline 配置', link: '/guide/cline' },
+            { text: 'Cherry Studio 配置', link: '/guide/cherry-studio' },
+            { text: 'Cursor 配置', link: '/guide/cursor' },
+          ],
+        },
+        {
           text: '官方 IDE 插件',
           items: [
             { text: 'Claude Code VS Code 插件', link: '/guide/claude-vscode' },
@@ -48,15 +59,6 @@ export default defineConfig({
             { text: 'Codex IDEA 插件说明', link: '/guide/codex-jetbrains' },
             { text: 'Gemini IDEA 插件配置', link: '/guide/gemini-jetbrains' },
             { text: 'JetBrains AI Assistant 配置', link: '/guide/jetbrains-openai-compatible' },
-          ],
-        },
-        {
-          text: '第三方客户端接入',
-          items: [
-            { text: 'OpenCode 配置', link: '/guide/opencode' },
-            { text: 'OpenClaw 配置', link: '/guide/openclaw' },
-            { text: 'Hermes 配置', link: '/guide/hermes' },
-            { text: 'Cline 配置', link: '/guide/cline' },
           ],
         },
         {
