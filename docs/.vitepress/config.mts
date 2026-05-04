@@ -15,11 +15,54 @@ export default defineConfig({
     sidebar: {
       '/guide/': [
         {
-          text: '配置教程',
+          text: '安装教程',
           items: [
             { text: '快速开始', link: '/guide/setup' },
-            { text: 'API Key 配置', link: '/guide/apikey' },
-            { text: '客户端配置', link: '/guide/client' },
+            { text: 'Claude Code 安装教程', link: '/guide/claude-install' },
+            { text: 'Codex 安装教程', link: '/guide/codex-install' },
+            { text: 'Gemini 安装教程', link: '/guide/gemini-install' },
+          ],
+        },
+        {
+          text: '基础信息',
+          items: [
+            { text: '平台模型 ID', link: '/guide/models' },
+            { text: 'CC Switch 一键导入', link: '/guide/cc-switch' },
+          ],
+        },
+        {
+          text: '官方 CLI 配置',
+          items: [
+            { text: 'Claude CLI 配置', link: '/guide/claude' },
+            { text: 'Codex CLI 配置', link: '/guide/codex' },
+            { text: 'Gemini CLI 配置', link: '/guide/gemini' },
+          ],
+        },
+        {
+          text: '官方 IDE 插件',
+          items: [
+            { text: 'Claude Code VS Code 插件', link: '/guide/claude-vscode' },
+            { text: 'Codex VS Code 插件', link: '/guide/codex-vscode' },
+            { text: 'Gemini CLI VS Code 插件', link: '/guide/gemini-vscode' },
+            { text: 'Claude Code IDEA 插件', link: '/guide/claude-jetbrains' },
+            { text: 'Codex IDEA 插件说明', link: '/guide/codex-jetbrains' },
+            { text: 'Gemini IDEA 插件配置', link: '/guide/gemini-jetbrains' },
+            { text: 'JetBrains AI Assistant 配置', link: '/guide/jetbrains-openai-compatible' },
+          ],
+        },
+        {
+          text: '第三方客户端接入',
+          items: [
+            { text: 'OpenCode 配置', link: '/guide/opencode' },
+            { text: 'OpenClaw 配置', link: '/guide/openclaw' },
+            { text: 'Hermes 配置', link: '/guide/hermes' },
+            { text: 'Cline 配置', link: '/guide/cline' },
+          ],
+        },
+        {
+          text: '常见问题',
+          items: [
+            { text: 'VS Code / Cursor 第三方端点修复', link: '/guide/fix-vscode-cursor-third-party-endpoint' },
           ],
         },
       ],
